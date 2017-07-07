@@ -1,0 +1,9 @@
+.form {
+  display: flex;//flexbox es un grid
+}
+
+.form__input {
+  border: 1px solid #e8e8e8;
+  flex-grow: 1;//cuando es cero no pasa nada pero cuando es uno crece hasta ocupar todo el cuadro donde se ubique
+  padding: 0 1.3rem;
+}
